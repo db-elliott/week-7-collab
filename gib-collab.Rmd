@@ -16,3 +16,13 @@ Hi you two!
 =======
 Hello how are y'all doing right now?
 >>>>>>> 64a67ce95e5068b0f16ea6a2a6ed0acd7af5ec57
+
+```{r task 1}
+
+plot(cars)
+```
+
+```{r task 2}
+
+```
+
