@@ -13,9 +13,8 @@ Hi Nick!
 
 
 
-
 ```{r}
-plots(car)
+mean_value <- mean(cars$dist)
 ```
 
 ```{r task 1}
@@ -39,4 +38,9 @@ ggplot(data = penguins, aes(x= flipper_length_mm, y = body_mass_g))+
        y = "Body mass (g)") +
   theme_classic()
 ```
+
+```{r}
+
+```
+
 
