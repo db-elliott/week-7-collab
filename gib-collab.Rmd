@@ -11,11 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hi Nick!
 
-<<<<<<< HEAD
-Hi you two!
-=======
-Hello how are y'all doing right now?
->>>>>>> 64a67ce95e5068b0f16ea6a2a6ed0acd7af5ec57
+
+
+
+```{r}
+
+mean_value <- mean(cars$dist)
+```
+
 
 ```{r task 1}
 
@@ -38,4 +41,9 @@ ggplot(data = penguins, aes(x= flipper_length_mm, y = body_mass_g))+
        y = "Body mass (g)") +
   theme_classic()
 ```
+
+```{r}
+
+```
+
 
