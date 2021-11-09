@@ -32,7 +32,10 @@ library(palmerpenguins)
 library(tidyverse)
 
 ggplot(data = penguins, aes(x= flipper_length_mm, y = body_mass_g))+ 
-  geom_line() +
-  labs(title = "Nick's beautiful graph")
+  geom_line(color = "cadetblue") +
+  labs(title = "Nick's beautiful graph",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)") +
+  theme_classic()
 ```
 
